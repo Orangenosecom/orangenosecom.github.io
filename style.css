@@ -1,0 +1,107 @@
+/*
+* Skrevet af: Lucas Falch
+* Orangenose.com Stylesheet
+*/
+
+*{
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+}
+article, aside, footer, header, hgroup, nav, section {
+	display: block;
+}
+body{
+	text-align: center;
+}
+#site{
+	text-align: left;
+	margin: 10px auto 5px;
+	width: 600px;
+}
+#header{
+	background: #FF7A03;
+	padding: 10px;
+}
+#header a{
+	color: white;
+	font: normal 16px Tahoma, Arial;
+	text-decoration: none;
+	cursor: auto;
+}
+div>section{
+	float: right;
+	width: 450px;
+	padding: 5px;
+}
+aside{
+	background: white;
+	float: left;
+	width: 130px;
+	padding: 5px;
+}
+aside>ul>li{
+	list-style: none;
+}
+aside>ul>li>a{
+	color: #FF7A03;
+	font: bold 15px Tahoma, Arial;
+	text-decoration: none;
+	cursor: auto;
+}
+aside>ul{
+	margin-bottom: 40px;
+}
+p{
+	text-align: justify;
+	font: normal 13px Tahoma, Arial;
+	padding-bottom: 0.85em;
+}
+h2{
+	font: bold 21px Tahoma, Arial;
+	padding-bottom: 0.4em;
+}
+nav{
+	background: black;
+}
+nav>ul>li{
+	display: inline-block;
+	list-style: none;
+	font: bold 14px Tahoma, Arial;
+	padding: 4px;
+}
+nav>ul>li>a{
+	color: white;
+	text-decoration: none;
+	cursor: auto;
+}
+article{
+	padding-top: 10px;
+}
+footer{
+	clear: both;
+	text-align: center;
+	padding: 3px;
+	border-top: 1px solid black;
+	font: italic 12px Arial;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
